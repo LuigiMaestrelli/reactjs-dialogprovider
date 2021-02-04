@@ -1,38 +1,49 @@
 {
-  "name": "teste-msg",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "reactjs-dialogprovider",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "analyze": "source-map-explorer build/static/js/*.js",
+        "prettier": "prettier --write \"**/*.{js,jsx,css}\"",
+        "lint": "eslint --ext .js,.jsx ."
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "dependencies": {
+        "@emotion/react": "^11.1.4",
+        "@emotion/styled": "^11.0.0",
+        "@material-ui/core": "^5.0.0-alpha.24",
+        "@material-ui/icons": "^5.0.0-alpha.24",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-draggable": "^4.4.3",
+        "react-scripts": "4.0.2",
+        "web-vitals": "^1.1.0"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.11.9",
+        "@testing-library/react": "^11.2.5",
+        "@testing-library/user-event": "^12.6.3",
+        "babel-eslint": "^10.1.0",
+        "babel-plugin-styled-components": "^1.12.0",
+        "eslint": "^7.19.0",
+        "eslint-plugin-react": "^7.22.0",
+        "prettier": "2.2.1",
+        "prop-types": "^15.7.2",
+        "source-map-explorer": "^2.5.2"
+    }
 }
